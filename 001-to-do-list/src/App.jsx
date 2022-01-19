@@ -12,7 +12,7 @@ const App = () => {
     },
     {
       id: 2,
-      value: 'Click red circle if you want to delte the item',
+      value: 'Click red circle if you want to delete the list',
       checked: false,
     },
   ]);
