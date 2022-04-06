@@ -4,10 +4,11 @@ import { useTable, useSortBy } from 'react-table';
 import MOCK_DATA from './MOCK_DATA.json';
 import { COLUMNS } from './columns';
 import { GROUPED_HEADER } from './grouped_header';
+import { COLUMNS_DATE_FORMAT } from './columns_date_format';
 import './table.css';
 
 const SortingTable = () => {
-  const columns = useMemo(() => COLUMNS, []);
+  const columns = useMemo(() => COLUMNS_DATE_FORMAT, []);
   const data = useMemo(() => MOCK_DATA, []);
 
   // 2. add the useSortBy hook to your useTable hook
